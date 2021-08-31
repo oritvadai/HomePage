@@ -7,16 +7,15 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    overflow-y: hidden;
 }
 
 #header{
-    margin-top: 400px;
-    margin-bottom: 400px;
-
+    margin-top: 20%;
+    margin-bottom: 20%;
     padding: 20px;
     width: 100%;
     color: white;
-    /* text-shadow: 0px 0px 3px white; */
     background-color: rgb(0, 0, 0, 0.6);
     text-align: center;
     font-size: x-large;
@@ -34,7 +33,13 @@ html, body {
     -webkit-transform: rotate(45deg);
 }
 
-#header2 {
+.up {
+    transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+    display: block;
+}
+
+#my-projects {
     width: 100%;
     padding: 10px;
     text-align: center;
@@ -46,7 +51,7 @@ html, body {
     padding: 40px;
     background-color: rgb(0, 0, 0, 0.6);
     display: flex;
-    margin-bottom: 300px;
+    margin-bottom: 30%;
     flex-wrap: wrap;
     justify-content: center;
 }
